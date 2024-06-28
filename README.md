@@ -1,9 +1,11 @@
-# PerceptronsRevisited
+# Bachelor AI Thesis: Perceptrons Revisited
 
 NEEDS TO BE UPDATED!
 
-**Files:**
+**Introduction:**
 
+
+**Project structure:**
 - CNN.py - the CNN model
 
 - draft_version.ipynb - the CCL applied to two images, one with 1 spiral, and one with 2 spirals
