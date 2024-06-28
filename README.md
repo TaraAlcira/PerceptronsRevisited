@@ -8,21 +8,21 @@ This thesis investigates the capabilities of modern computer vision models in di
 ### CCL
 - **CCL_demo.ipynb** - notebook in which the CCL method is applied
 
-_CNN_
+### CNN
 -   **CNN_best2.py** - the CNN code
 
 -   **CNN_best2.h5** - the CNN model
 
 -   **new_CNN_load.ipynb** - notebook in which the model is loaded
 
-_Generate spirals_
+### Generate spirals
 -   **one_spiral_function.py** - a function that creates a single connected spiral
 
 -   **two_spirals_function.py** - a function that creates disconnected double spirals
 
 -   **randomize_spirals.py** - a function that calls both of the spiral functions and creates a dataset of both kinds of spirals, including a JSON file of their labels
 
-_Transformer_
+### Transformer
 - **VisTransformer.ipynb** - notebook in which the transformer is trained
 
   
