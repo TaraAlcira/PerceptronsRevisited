@@ -13,7 +13,7 @@ This thesis investigates the capabilities of modern computer vision models in di
 
 -   **CNN_best2.h5** - the CNN model
 
--   **new_CNN_load.ipynb** - notebook in which the model is loaded
+-   **new_CNN_load.ipynb** - notebook in which the CNN model is loaded and tested
 
 ### Generate spirals
 -   **one_spiral_function.py** - a function that creates a single connected spiral
