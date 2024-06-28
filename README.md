@@ -1,5 +1,7 @@
 # PerceptronsRevisited
 
+NEEDS TO BE UPDATED!
+
 **Files:**
 
 - CNN.py - the CNN model
