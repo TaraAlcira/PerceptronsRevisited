@@ -5,7 +5,7 @@ This thesis investigates the capabilities of modern computer vision models in di
 
 ## Project structure:
 
-_CCL_
+### CCL
 - **CCL_demo.ipynb** - notebook in which the CCL method is applied
 
 _CNN_
