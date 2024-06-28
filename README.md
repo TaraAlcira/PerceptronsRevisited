@@ -1,16 +1,29 @@
 # Perceptrons Revisited
 
-**Introduction:**
+**Abstract:**
+This thesis investigates the capabilities of modern computer vision models in distinguishing between single connected spirals and disconnected double spirals on a two-dimensional plane. The study revisits the historical challenges posed by the spiral example, originally highlighted in the book "Perceptrons" by Minsky and Papert, which underscored the limitations of early neural network models like the perceptron. Utilizing a generated dataset inspired by a cellular automata-based method, the research implements Convolutional Neural Networks (CNNs) and Visual Transformers (ViT) to attempt to classify spiral patterns. The CNN achieved high accuracy, precision, recall, and F1-score, demonstrating significant advancements in neural network architectures. 
 
 **Project structure:**
 
--   CNN.py - the CNN model
+_CCL_
+- CCL_demo.ipynb - notebook in which the CCL method is applied
 
--   draft_version.ipynb - the CCL applied to two images, one with 1 spiral, and one with 2 spirals
+_CNN_
+-   CNN_best2.py - the CNN code
 
--   Generate_spirals/one_spiral_function.py - a function that creates a single connected spiral
+-   CNN_best2.h5 - the CNN model
 
--   Generate_spirals/two_spirals_function.py - a function that creates disconnected double spirals
+-   new_CNN_load.ipynb - notebook in which the model is loaded
 
--   # Generate_spirals/randomize_spirals.py - a function that calls both of the spiral functions, and creates a dataset of both kinds of spirals, and their labels
-    > > > > > > > Stashed changes
+_Generate spirals_
+-   one_spiral_function.py - a function that creates a single connected spiral
+
+-   two_spirals_function.py - a function that creates disconnected double spirals
+
+-   randomize_spirals.py - a function that calls both of the spiral functions and creates a dataset of both kinds of spirals, including a JSON file of their labels
+
+_Transformer_
+- VisTransformer.ipynb - notebook in which the transformer is trained
+
+  
+
