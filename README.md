@@ -1,9 +1,9 @@
 # Perceptrons Revisited
 
-**Abstract:**
+## Abstract:
 This thesis investigates the capabilities of modern computer vision models in distinguishing between single connected spirals and disconnected double spirals on a two-dimensional plane. The study revisits the historical challenges posed by the spiral example, originally highlighted in the book "Perceptrons" by Minsky and Papert, which underscored the limitations of early neural network models like the perceptron. Utilizing a generated dataset inspired by a cellular automata-based method, the research implements Convolutional Neural Networks (CNNs) and Visual Transformers (ViT) to attempt to classify spiral patterns. The CNN achieved high accuracy, precision, recall, and F1-score, demonstrating significant advancements in neural network architectures. 
 
-**Project structure:** 
+## Project structure:
 
 _CCL_
 - **CCL_demo.ipynb** - notebook in which the CCL method is applied
